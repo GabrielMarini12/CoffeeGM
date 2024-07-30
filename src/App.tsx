@@ -1,9 +1,16 @@
-function App() {
-  return (
-    <div>
-      <h1 className="text-red-500">Cageteria GM</h1>
-    </div>
-  );
-}
+import { createBrowserRouter } from "react-router-dom";
+import { Home } from "./pages/home";
+import { Menu } from "./pages/menu";
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/menu",
+    element: <Menu />,
+  },
+]);
+
+export { router };
