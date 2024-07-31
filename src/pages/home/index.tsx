@@ -12,18 +12,19 @@ export function Home() {
         className="w-full max-w-[1400px] mx-auto mb-10"
       />
       <Container>
-        <div className="grid grid-cols-2 mb-10 py-8 ">
-          <div className="bg-green-950/90 rounded-full w-64 h-64 relative mx-auto shadow-md shadow-black">
+        <div className="grid grid-cols-2 mb-9 bg-gradient-to-r from-green-950 to-white rounded-l-full">
+          <div className="w-64 h-64 relative ">
             <img
               src={copoNaMaoImg}
               alt="Segurando copo na mão"
-              className="absolute w-72 -top-14 -right-2"
+              className="absolute w-64 -top-14 left-6  "
             />
           </div>
 
           <div className="flex justify-center items-center text-center px-4">
             <p className="text-green-950 font-semibold text-3xl">
-              Desfrute da experiência de sentir os sabores dos nossos cafés!
+              Desfrute da experiência de sentir os sabores dos nossos{" "}
+              <span className="font-bold">cafés</span>!
             </p>
           </div>
         </div>
