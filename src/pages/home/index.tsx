@@ -1,6 +1,8 @@
 import { Container } from "../../components/container";
 import bannerImg from "../../assets/banner.jpg";
 import bannerColdBrewAndRefreshers from "../../assets/banner-cold-brew-and-refresh-morango.png";
+import bannerPlantacao from "../../assets/guatemala.jpg";
+import bannerTime from "../../assets/team.jpg";
 import copoNaMaoImg from "../../assets/gmcoffeecompany.png";
 
 export function Home() {
@@ -31,7 +33,7 @@ export function Home() {
       </Container>
 
       <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
-        <div className="flex flex-col bg-green-200/70 justify-center items-center gap-8">
+        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
           <p className="text-3xl text-green-950 font-semibold">
             Uma surpresa refrescante para você
           </p>
@@ -49,6 +51,44 @@ export function Home() {
             src={bannerColdBrewAndRefreshers}
             alt="2 copos com cafés da GM Coffee Company"
           />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
+        <div>
+          <img src={bannerPlantacao} alt="Plantando o café" />
+        </div>
+
+        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
+          <p className="text-3xl text-green-950 font-semibold">
+            Coisas boas estão acontecendo
+          </p>
+          <p className="text-xl font-medium text-green-950">
+            Acreditamos que podemos e devemos gerar um impacto positivo nas
+            comunidades em que atuamos.{" "}
+          </p>
+          <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
+            Saiba mais
+          </button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
+        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
+          <p className="text-3xl text-green-950 font-semibold">
+            Histórias e Notícias Starbucks
+          </p>
+          <p className="text-xl font-medium text-green-950">
+            Fique por dentro das novidades e conheça mais sobre nossas
+            iniciativas.{" "}
+          </p>
+          <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
+            Saiba mais
+          </button>
+        </div>
+
+        <div>
+          <img src={bannerTime} alt="Imagem do time da GM Coffee Company" />
         </div>
       </div>
     </>
