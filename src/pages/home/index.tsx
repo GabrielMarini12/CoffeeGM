@@ -1,4 +1,5 @@
 import { Container } from "../../components/container";
+import { Link } from "react-router-dom";
 import bannerImg from "../../assets/banner.jpg";
 import bannerColdBrewAndRefreshers from "../../assets/banner-cold-brew-and-refresh-morango.png";
 import bannerPlantacao from "../../assets/guatemala.jpg";
@@ -41,9 +42,11 @@ export function Home() {
             Conheça nossa linha de{" "}
             <span className="text-2xl font-bold">Cold Brew e Refreshers™</span>
           </p>
-          <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
-            Saiba mais
-          </button>
+          <Link to="/menu">
+            <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
+              Saiba mais
+            </button>
+          </Link>
         </div>
 
         <div>
@@ -67,9 +70,11 @@ export function Home() {
             Acreditamos que podemos e devemos gerar um impacto positivo nas
             comunidades em que atuamos.{" "}
           </p>
-          <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
-            Saiba mais
-          </button>
+          <Link to="/menu">
+            <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
+              Saiba mais
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -82,9 +87,11 @@ export function Home() {
             Fique por dentro das novidades e conheça mais sobre nossas
             iniciativas.{" "}
           </p>
-          <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
-            Saiba mais
-          </button>
+          <Link to="/menu">
+            <button className="border border-green-950 px-4 py-1 rounded-full font-medium">
+              Saiba mais
+            </button>
+          </Link>
         </div>
 
         <div>
