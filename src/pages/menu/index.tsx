@@ -4,7 +4,7 @@ export function Menu() {
   return (
     <Container>
       <div className="flex flex-col mt-10 mb-10">
-        <h1 className="text-center uppercase text-2xl font-bold text-green-950 mb-10">
+        <h1 className="text-center uppercase text-3xl font-bold text-green-950 mb-10 italic  ">
           Menu
         </h1>
 
