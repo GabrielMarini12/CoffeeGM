@@ -67,7 +67,7 @@ export function Footer() {
         </div>
 
         <div className="flex gap-1 text-black/40 text-base">
-          <p>© 2024 Starbucks Coffee Company.</p>
+          <p>© 2024 GM Coffee Company.</p>
           <p>Todos os direitos reservados.</p>
         </div>
       </footer>

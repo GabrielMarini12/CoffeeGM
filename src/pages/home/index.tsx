@@ -81,7 +81,7 @@ export function Home() {
       <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
         <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
           <p className="text-3xl text-green-950 font-semibold">
-            Histórias e Notícias Starbucks
+            Histórias e Notícias GM
           </p>
           <p className="text-xl font-medium text-green-950">
             Fique por dentro das novidades e conheça mais sobre nossas
