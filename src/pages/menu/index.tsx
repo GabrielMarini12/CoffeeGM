@@ -8,7 +8,7 @@ import blackCoffee from "../../assets/pexels-lucianphotography-4056276.jpg";
 export function Menu() {
   return (
     <>
-      <div className="grid grid-cols-2  bg-green-100 mb-6 w-full max-w-[1400px] mx-auto">
+      <div className="grid grid-cols-2  bg-green-100 mb-10 w-full max-w-[1400px] mx-auto">
         <div className="items-center flex flex-col ">
           <img src={menuBanner} alt="Foto de 2 cafés" />
         </div>
@@ -25,6 +25,17 @@ export function Menu() {
       </div>
 
       <Container>
+        <div className="flex justify-center items-center mb-10 gap-10 ">
+          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none">
+            Todos
+          </button>
+          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none">
+            Simples
+          </button>
+          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none">
+            Especiais
+          </button>
+        </div>
         <div className="flex flex-col mb-10 ">
           <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto">
             <div className="flex flex-col ">
