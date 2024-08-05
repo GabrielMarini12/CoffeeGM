@@ -17,7 +17,7 @@ export function Menu() {
           <h1 className="text-center uppercase text-3xl font-bold text-green-950 mb-10 italic  ">
             Cardápio
           </h1>
-          <p className="text-xs">*Cardápio sem preço</p>
+          <p className="text-xs">*Cardápio com preço variável</p>
           <p className="text-xs -mt-2">
             Consulte os nossos baristas para saber mais
           </p>
@@ -26,13 +26,13 @@ export function Menu() {
 
       <Container>
         <div className="flex justify-center items-center mb-10 gap-10 ">
-          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none">
+          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
             Todos
           </button>
-          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none">
+          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
             Simples
           </button>
-          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none">
+          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
             Especiais
           </button>
         </div>
@@ -46,18 +46,28 @@ export function Menu() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-2">
-              <p>Café com leite</p>
-              <p>Descrição</p>
-              <p>Valor</p>
+            <div className="flex flex-col justify-around items-start gap-2 px-8">
+              <p className="text-3xl text-green-950 font-bold">
+                Café Americano
+              </p>
+              <p className="text-sm text-green-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                aspernatur aut consequuntur iusto pariatur ab.
+              </p>
+              <p className="text-xl text-green-950 font-medium">$ 9</p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto">
-            <div className="flex flex-col justify-center items-center gap-2">
-              <p>Café com leite</p>
-              <p>Descrição</p>
-              <p>Valor</p>
+            <div className="flex flex-col justify-around items-start gap-2 px-8">
+              <p className="text-3xl text-green-950 font-bold">
+                Café Americano
+              </p>
+              <p className="text-sm text-green-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                aspernatur aut consequuntur iusto pariatur ab.
+              </p>
+              <p className="text-xl text-green-950 font-medium">$ 9</p>
             </div>
             <div className="flex flex-col">
               <img
@@ -77,18 +87,28 @@ export function Menu() {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-2">
-              <p>Café com leite</p>
-              <p>Descrição</p>
-              <p>Valor</p>
+            <div className="flex flex-col justify-around items-start gap-2 px-8">
+              <p className="text-3xl text-green-950 font-bold">
+                Café Americano
+              </p>
+              <p className="text-sm text-green-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                aspernatur aut consequuntur iusto pariatur ab.
+              </p>
+              <p className="text-xl text-green-950 font-medium">$ 9</p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto">
-            <div className="flex flex-col justify-center items-center gap-2">
-              <p>Café com leite</p>
-              <p>Descrição</p>
-              <p>Valor</p>
+            <div className="flex flex-col justify-around items-start gap-2 px-8">
+              <p className="text-3xl text-green-950 font-bold">
+                Café Americano
+              </p>
+              <p className="text-sm text-green-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                aspernatur aut consequuntur iusto pariatur ab.
+              </p>
+              <p className="text-xl text-green-950 font-medium">$ 9</p>
             </div>
             <div className="flex flex-col">
               <img
