@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container } from "../../components/container";
 import menuBanner from "../../assets/menu-banner.jpg";
-import coffee from "../../assets/coffee.jpg";
-import carameloCoffee from "../../assets//pexels-arrcaa-18635176.jpg";
-import chocoCoffee from "../../assets/pexels-charlotte-may-5946982.jpg";
-import blackCoffee from "../../assets/pexels-lucianphotography-4056276.jpg";
 
 import { api } from "../../services/api";
 
@@ -14,6 +10,7 @@ export interface CafesProps {
   description: string;
   price: string;
   modelo: string;
+  image: string;
 }
 
 export function Menu() {
@@ -59,16 +56,13 @@ export function Menu() {
           </button>
         </div>
         {cafes.map((cafe) => (
-          <div className="flex flex-col mb-10 ">
-            <div
-              className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto "
-              key={cafe.id}
-            >
+          <div className="flex flex-col mb-10 " key={cafe.id}>
+            <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto ">
               <div className="flex flex-col ">
                 <img
-                  className=" rounded-l-md max-h-96 object-cover"
-                  src={coffee}
-                  alt="Café"
+                  className=" rounded-l-md h-96 object-cover"
+                  src={cafe.image}
+                  alt={cafe.name}
                 />
               </div>
 
@@ -78,26 +72,6 @@ export function Menu() {
                 <p className="text-xl text-green-950 font-medium">
                   R$ {cafe.price}
                 </p>
-              </div>
-            </div>
-
-            <div
-              className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto"
-              key={cafe.id}
-            >
-              <div className="flex flex-col justify-around items-start gap-2 px-8">
-                <p className="text-3xl text-green-950 font-bold">{cafe.name}</p>
-                <p className="text-sm text-green-900">{cafe.description}</p>
-                <p className="text-xl text-green-950 font-medium">
-                  R$ {cafe.price}
-                </p>
-              </div>
-              <div className="flex flex-col">
-                <img
-                  className="rounded-r-md"
-                  src={carameloCoffee}
-                  alt="Café de caramelo"
-                />
               </div>
             </div>
           </div>

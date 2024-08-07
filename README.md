@@ -12,3 +12,6 @@
   - axios
     - npm i axios
   - npm install -g json-server
+
+- Rodar Api
+  - json-server --watch db.json

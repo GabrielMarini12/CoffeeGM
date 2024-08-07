@@ -5,28 +5,32 @@
       "name": "Café Americano",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
       "price": "9",
-      "modelo": "Simples"
+      "modelo": "Simples",
+      "image": "https://images.pexels.com/photos/460541/pexels-photo-460541.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": 2,
       "name": "Café Caramelado",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
       "price": "14",
-      "modelo": "Especial"
+      "modelo": "Especial",
+      "image": "https://images.pexels.com/photos/18635176/pexels-photo-18635176/free-photo-of-cafe-preto-cafe-da-manha-cafe-fresco-cafeina.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": 3,
       "name": "Café Achocolatado",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
       "price": "11",
-      "modelo": "Especial"
+      "modelo": "Especial",
+      "image": "https://images.pexels.com/photos/18635177/pexels-photo-18635177/free-photo-of-cafe-preto-cafe-da-manha-cafe-fresco-cafeina.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "id": 4,
       "name": "Café Preto",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
       "price": "7",
-      "modelo": "Simples"
+      "modelo": "Simples",
+      "image": "https://images.pexels.com/photos/4056275/pexels-photo-4056275.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
 }
