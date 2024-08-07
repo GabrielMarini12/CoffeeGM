@@ -1,0 +1,32 @@
+{
+  "cafes": [
+    {
+      "id": 1,
+      "name": "Café Americano",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "9",
+      "modelo": "Simples"
+    },
+    {
+      "id": 2,
+      "name": "Café Caramelado",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "14",
+      "modelo": "Especial"
+    },
+    {
+      "id": 3,
+      "name": "Café Achocolatado",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "11",
+      "modelo": "Especial"
+    },
+    {
+      "id": 4,
+      "name": "Café Preto",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "7",
+      "modelo": "Simples"
+    }
+  ]
+}
