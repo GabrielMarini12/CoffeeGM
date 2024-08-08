@@ -44,7 +44,7 @@ export function Menu() {
       </div>
 
       <Container>
-        <div className="flex justify-center items-center mb-10 gap-10 ">
+        <div className="flex justify-center items-center gap-10 mb-10">
           <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
             Todos
           </button>

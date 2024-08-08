@@ -31,6 +31,38 @@
       "price": "7",
       "modelo": "Simples",
       "image": "https://images.pexels.com/photos/4056275/pexels-photo-4056275.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 5,
+      "name": "Café Gelado",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "15",
+      "modelo": "Especial",
+      "image": "https://images.pexels.com/photos/1078773/pexels-photo-1078773.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 6,
+      "name": "Café com Espuma",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "10",
+      "modelo": "Simples",
+      "image": "https://images.pexels.com/photos/25588176/pexels-photo-25588176/free-photo-of-cafe-vidro-copo-espuma.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "name": "Café de Coca-Cola",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "19",
+      "modelo": "Especial",
+      "image": "https://images.pexels.com/photos/25291892/pexels-photo-25291892/free-photo-of-verao-vidro-copo-cafe.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "name": "Café com Leite",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur aut consequuntur iusto pariatur ab.",
+      "price": "8",
+      "modelo": "Simples",
+      "image": "https://images.pexels.com/photos/25409636/pexels-photo-25409636/free-photo-of-cafeina-cafe-vidro-copo.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
 }
