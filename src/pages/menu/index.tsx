@@ -44,17 +44,46 @@ export function Menu() {
       </div>
 
       <Container>
-        <div className="flex justify-center items-center gap-10 mb-10">
-          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
+        <section className="flex justify-center items-center mb-12">
+          <input
+            id="filter-0"
+            type="radio"
+            name="filter-selection"
+            className="hidden"
+          />
+          <label
+            className="rounded-s-full bg-gradient-to-r from-green-950 to-green-800 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-black"
+            htmlFor="filter-0"
+          >
             Todos
-          </button>
-          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
+          </label>
+          <input
+            id="filter-1"
+            type="radio"
+            name="filter-selection"
+            className="hidden"
+          />
+          <label
+            className=" bg-gradient-to-r from-green-800 to-green-700 px-8 py-6 italic font-medium text-xl text-white cursor-pointer "
+            htmlFor="filter-1"
+          >
             Simples
-          </button>
-          <button className="bg-gradient-to-r from-green-950 to-green-600 text-white py-2 px-8 rounded-full font-bold shadow-md shadow-black hover:shadow-none italic">
+          </label>
+          <input
+            id="filter-2"
+            type="radio"
+            name="filter-selection"
+            className="hidden"
+          />
+          <label
+            dir="rtl"
+            className="rounded-s-full bg-gradient-to-r from-green-700 to-green-600 px-10 py-6 italic font-medium text-xl text-white cursor-pointer "
+            htmlFor="filter-2"
+          >
             Especiais
-          </button>
-        </div>
+          </label>
+        </section>
+
         {cafes.map((cafe) => (
           <div className="flex flex-col mb-10 " key={cafe.id}>
             <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto ">
