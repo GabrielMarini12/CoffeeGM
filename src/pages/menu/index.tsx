@@ -52,7 +52,7 @@ export function Menu() {
             className="hidden"
           />
           <label
-            className="rounded-s-full bg-gradient-to-r from-green-950 to-green-800 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-black"
+            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90"
             htmlFor="filter-0"
           >
             Todos
@@ -64,7 +64,7 @@ export function Menu() {
             className="hidden"
           />
           <label
-            className=" bg-gradient-to-r from-green-800 to-green-700 px-8 py-6 italic font-medium text-xl text-white cursor-pointer "
+            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 "
             htmlFor="filter-1"
           >
             Simples
@@ -77,7 +77,7 @@ export function Menu() {
           />
           <label
             dir="rtl"
-            className="rounded-s-full bg-gradient-to-r from-green-700 to-green-600 px-10 py-6 italic font-medium text-xl text-white cursor-pointer "
+            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 "
             htmlFor="filter-2"
           >
             Especiais
