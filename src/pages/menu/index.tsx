@@ -105,7 +105,7 @@ export function Menu() {
             onClick={exibirTodos}
           />
           <label
-            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 hover:shadow-inner hover:shadow-black"
+            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 active:shadow-inner active:shadow-black "
             htmlFor="filter-0"
           >
             Todos
@@ -118,7 +118,7 @@ export function Menu() {
             onClick={exibirSimples}
           />
           <label
-            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 hover:shadow-inner hover:shadow-black"
+            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 active:shadow-inner active:shadow-black"
             htmlFor="filter-1"
           >
             Simples
@@ -132,7 +132,7 @@ export function Menu() {
           />
           <label
             dir="rtl"
-            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 hover:shadow-inner hover:shadow-black"
+            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 active:shadow-inner active:shadow-black"
             htmlFor="filter-2"
           >
             Especiais
