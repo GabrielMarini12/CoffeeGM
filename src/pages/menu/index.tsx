@@ -15,6 +15,7 @@ export interface CafesProps {
 
 export function Menu() {
   const [cafes, setCafes] = useState<CafesProps[]>([]);
+  const listCafes = [] as CafesProps[];
 
   useEffect(() => {
     async function getCafes() {
@@ -24,6 +25,57 @@ export function Menu() {
 
     getCafes();
   }, []);
+
+  function exibirTodos() {
+    async function getCafes() {
+      const response = await api.get("/cafes");
+      setCafes(response.data);
+    }
+
+    getCafes();
+  }
+
+  function exibirSimples() {
+    async function getCafes() {
+      const response = await api.get("/cafes");
+      response.data.forEach((doc: any) => {
+        if (doc.modelo === "Simples") {
+          listCafes.push({
+            id: doc.id,
+            name: doc.name,
+            description: doc.description,
+            price: doc.price,
+            modelo: doc.modelo,
+            image: doc.image,
+          });
+        }
+      });
+      setCafes(listCafes);
+    }
+
+    getCafes();
+  }
+
+  function exibirEspeciais() {
+    async function getCafes() {
+      const response = await api.get("/cafes");
+      response.data.forEach((doc: any) => {
+        if (doc.modelo === "Especial") {
+          listCafes.push({
+            id: doc.id,
+            name: doc.name,
+            description: doc.description,
+            price: doc.price,
+            modelo: doc.modelo,
+            image: doc.image,
+          });
+        }
+      });
+      setCafes(listCafes);
+    }
+
+    getCafes();
+  }
 
   return (
     <>
@@ -50,6 +102,7 @@ export function Menu() {
             type="radio"
             name="filter-selection"
             className="hidden"
+            onClick={exibirTodos}
           />
           <label
             className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 hover:shadow-inner hover:shadow-black"
@@ -62,6 +115,7 @@ export function Menu() {
             type="radio"
             name="filter-selection"
             className="hidden"
+            onClick={exibirSimples}
           />
           <label
             className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 hover:shadow-inner hover:shadow-black"
@@ -74,6 +128,7 @@ export function Menu() {
             type="radio"
             name="filter-selection"
             className="hidden"
+            onClick={exibirEspeciais}
           />
           <label
             dir="rtl"
