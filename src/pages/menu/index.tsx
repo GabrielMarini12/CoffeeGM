@@ -8,7 +8,7 @@ export interface CafesProps {
   id: string;
   name: string;
   description: string;
-  price: string;
+  price: number;
   modelo: string;
   image: string;
 }
@@ -154,7 +154,11 @@ export function Menu() {
                 <p className="text-3xl text-green-950 font-bold">{cafe.name}</p>
                 <p className="text-sm text-green-900">{cafe.description}</p>
                 <p className="text-xl text-green-950 font-medium">
-                  R$ {cafe.price}
+                  {" "}
+                  {cafe.price.toLocaleString("pt-BR", {
+                    style: "currency",
+                    currency: "BRL",
+                  })}
                 </p>
               </div>
             </div>
