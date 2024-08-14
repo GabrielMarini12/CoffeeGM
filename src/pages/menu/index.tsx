@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Container } from "../../components/container";
 import menuBanner from "../../assets/menu-banner.jpg";
+import logoImg from "../../assets/starbucks-nav-logo.svg";
 
 import { api } from "../../services/api";
 
@@ -79,7 +80,7 @@ export function Menu() {
 
   return (
     <>
-      <div className="grid grid-cols-2  bg-green-100 mb-10 w-full max-w-[1400px] mx-auto">
+      <div className="grid grid-cols-2  bg-green-100 mb-16 w-full max-w-[1400px] mx-auto">
         <div className="items-center flex flex-col ">
           <img src={menuBanner} alt="Foto de 2 cafés" />
         </div>
@@ -96,7 +97,12 @@ export function Menu() {
       </div>
 
       <Container>
-        <section className="flex justify-center items-center mb-12">
+        <section className="flex justify-center items-center mb-12 relative">
+          <img
+            src={logoImg}
+            alt="Logo do GM Coffee Company"
+            className="w-16 absolute -top-12 -z-10"
+          />
           <input
             id="filter-0"
             type="radio"
@@ -105,7 +111,7 @@ export function Menu() {
             onClick={exibirTodos}
           />
           <label
-            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 active:shadow-inner active:shadow-black "
+            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white "
             htmlFor="filter-0"
           >
             Todos
@@ -118,7 +124,7 @@ export function Menu() {
             onClick={exibirSimples}
           />
           <label
-            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 active:shadow-inner active:shadow-black"
+            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white"
             htmlFor="filter-1"
           >
             Simples
@@ -132,7 +138,7 @@ export function Menu() {
           />
           <label
             dir="rtl"
-            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:opacity-90 active:shadow-inner active:shadow-black"
+            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white"
             htmlFor="filter-2"
           >
             Especiais
