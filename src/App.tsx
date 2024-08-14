@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./pages/home";
 import { Menu } from "./pages/menu";
-import { Lojas } from "./pages/lojas/lojas";
+import { Lojas } from "./pages/lojas";
 
 import { Layout } from "./components/layout";
 
