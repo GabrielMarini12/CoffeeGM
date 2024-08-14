@@ -24,8 +24,12 @@ export function Header() {
 
         <div className="flex items-center">
           <img src={historyImg} alt="Logo GM History" className="w-28 mr-6" />
-          <FaLocationDot size={20} />
-          <p className="font-semibold ml-1 cursor-pointer">Encontre uma loja</p>
+          <Link to="/lojas" className="flex">
+            <FaLocationDot size={20} />
+            <p className="font-semibold ml-1 cursor-pointer">
+              Encontre uma loja
+            </p>
+          </Link>
         </div>
       </div>
     </header>
