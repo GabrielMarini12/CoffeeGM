@@ -1,4 +1,4 @@
-# GM Coffee Company - Landing Page
+# GM Coffee Company 
 
 - Dependência
 
