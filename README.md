@@ -13,5 +13,5 @@
     - npm i axios
   - npm install -g json-server
 
-- Rodar Api dos produtos
+- Rodar Api dos produtos da cafeteria
   - json-server --watch db.json
