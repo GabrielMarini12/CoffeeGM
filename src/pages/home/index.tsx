@@ -15,7 +15,7 @@ export function Home() {
         className="w-full max-w-[1400px] mx-auto mb-10"
       />
       <Container>
-        <div className="grid grid-cols-2 mb-9 bg-gradient-to-r from-green-950 to-white rounded-l-full">
+        <div className="grid grid-cols-2 mb-9 bg-gradient-to-r from-green-950 to-white rounded-l-full ">
           <div className="w-64 h-64 relative ">
             <img
               src={copoNaMaoImg}

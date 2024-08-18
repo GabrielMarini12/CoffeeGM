@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export function Header() {
   return (
-    <header className="flex w-full items-center justify-center h-24 sticky top-0 shadow-lg shadow-slate-200 z-20 bg-white">
+    <header className="flex w-full items-center justify-center h-24 sticky top-0 shadow-lg shadow-slate-200 z-20 bg-slate-100">
       <div className="flex w-full max-w-7xl justify-between items-center px-4">
         <div className="flex items-center">
           <Link to="/">
