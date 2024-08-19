@@ -20,21 +20,20 @@ export function Home() {
             <img
               src={copoNaMaoImg}
               alt="Segurando copo na mão"
-              className="absolute w-64 -top-14 left-6  "
+              className="absolute w-64 -top-14 left-6 max-sm:-left-4 "
             />
           </div>
 
           <div className="flex justify-center items-center text-center px-4">
-            <p className="text-green-950 font-semibold text-3xl">
+            <p className="text-green-950 font-semibold text-3xl max-sm:text-lg">
               Desfrute da experiência de sentir os sabores dos nossos{" "}
               <span className="font-bold">cafés</span>!
             </p>
           </div>
         </div>
       </Container>
-
-      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
-        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
+      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10 max-md:grid-cols-1">
+        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8 h-72">
           <p className="text-3xl text-green-950 font-semibold">
             Uma surpresa refrescante para você
           </p>
@@ -53,16 +52,21 @@ export function Home() {
           <img
             src={bannerColdBrewAndRefreshers}
             alt="2 copos com cafés da GM Coffee Company"
+            className="h-72 object-cover w-full"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
+      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10 max-md:grid-cols-1">
         <div>
-          <img src={bannerPlantacao} alt="Plantando o café" />
+          <img
+            src={bannerPlantacao}
+            alt="Plantando o café"
+            className="h-72 object-cover w-full"
+          />
         </div>
 
-        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
+        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8 h-72">
           <p className="text-3xl text-green-950 font-semibold">
             Coisas boas estão acontecendo
           </p>
@@ -78,8 +82,8 @@ export function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10">
-        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8">
+      <div className="grid grid-cols-2 max-w-[1400px] w-full mx-auto mb-10 max-md:grid-cols-1">
+        <div className="flex flex-col bg-green-200/70 justify-center items-center text-center gap-8 px-6 py-8 h-72">
           <p className="text-3xl text-green-950 font-semibold">
             Histórias e Notícias GM
           </p>
@@ -95,7 +99,11 @@ export function Home() {
         </div>
 
         <div>
-          <img src={bannerTime} alt="Imagem do time da GM Coffee Company" />
+          <img
+            src={bannerTime}
+            alt="Imagem do time da GM Coffee Company"
+            className="h-72 object-cover w-full"
+          />
         </div>
       </div>
     </>
