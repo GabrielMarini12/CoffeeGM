@@ -82,15 +82,19 @@ export function Menu() {
     <>
       <div className="grid grid-cols-2  bg-green-100 mb-16 w-full max-w-[1400px] mx-auto">
         <div className="items-center flex flex-col ">
-          <img src={menuBanner} alt="Foto de 2 cafés" />
+          <img
+            src={menuBanner}
+            alt="Foto de 2 cafés"
+            className="max-sm:h-40 max-sm:object-cover"
+          />
         </div>
 
         <div className="flex flex-col justify-center items-center gap-2">
-          <h1 className="text-center uppercase text-3xl font-bold text-green-950 mb-10 italic  ">
+          <h1 className="text-center uppercase text-3xl font-bold text-green-950 mb-10 italic max-sm:text-lg max-sm:mb-0 ">
             Cardápio
           </h1>
-          <p className="text-xs">*Cardápio com preço variável</p>
-          <p className="text-xs -mt-2">
+          <p className="text-xs text-center">*Cardápio com preço variável</p>
+          <p className="text-xs -mt-2 text-center">
             Consulte os nossos baristas para saber mais
           </p>
         </div>
@@ -111,7 +115,7 @@ export function Menu() {
             onClick={exibirTodos}
           />
           <label
-            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white "
+            className="rounded-s-full bg-green-900 px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white max-sm:px-7 max-sm:py-4 max-sm:text-base "
             htmlFor="filter-0"
           >
             Todos
@@ -124,7 +128,7 @@ export function Menu() {
             onClick={exibirSimples}
           />
           <label
-            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white"
+            className=" bg-green-900 px-8 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white max-sm:px-7 max-sm:py-4 max-sm:text-base"
             htmlFor="filter-1"
           >
             Simples
@@ -138,7 +142,7 @@ export function Menu() {
           />
           <label
             dir="rtl"
-            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white"
+            className="rounded-s-full bg-green-900  px-10 py-6 italic font-medium text-xl text-white cursor-pointer hover:bg-green-950 active:shadow-inner active:shadow-white max-sm:px-7 max-sm:py-4 max-sm:text-base"
             htmlFor="filter-2"
           >
             Especiais
@@ -147,18 +151,22 @@ export function Menu() {
 
         {cafes.map((cafe) => (
           <div className="flex flex-col mb-10 " key={cafe.id}>
-            <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto ">
+            <div className="grid grid-cols-2 mb-2 rounded-md bg-green-100 w-[60%] mx-auto max-lg:w-full">
               <div className="flex flex-col ">
                 <img
-                  className=" rounded-l-md h-96 object-cover"
+                  className=" rounded-l-md h-96 object-cover max-sm:h-72"
                   src={cafe.image}
                   alt={cafe.name}
                 />
               </div>
 
               <div className="flex flex-col justify-around items-start gap-2 px-8">
-                <p className="text-3xl text-green-950 font-bold">{cafe.name}</p>
-                <p className="text-sm text-green-900">{cafe.description}</p>
+                <p className="text-3xl text-green-950 font-bold max-sm:text-xl">
+                  {cafe.name}
+                </p>
+                <p className="text-sm text-green-900 max-sm:text-xs">
+                  {cafe.description}
+                </p>
                 <p className="text-xl text-green-950 font-medium">
                   {" "}
                   {cafe.price.toLocaleString("pt-BR", {
