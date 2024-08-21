@@ -12,7 +12,7 @@ export function Header() {
             <img
               src={logoImg}
               alt="Logo da GM Coffee Company"
-              className="w-14 mr-10"
+              className="w-14 mr-10 max-sm:mr-6"
             />
           </Link>
           <Link to="/menu">
@@ -23,7 +23,11 @@ export function Header() {
         </div>
 
         <div className="flex items-center">
-          <img src={historyImg} alt="Logo GM History" className="w-28 mr-6" />
+          <img
+            src={historyImg}
+            alt="Logo GM History"
+            className="w-28 mr-6 max-sm:hidden"
+          />
           <Link to="/lojas" className="flex">
             <FaLocationDot size={20} />
             <p className="font-semibold ml-1 cursor-pointer">
