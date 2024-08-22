@@ -1,9 +1,14 @@
 # GM Coffee Company 
 
-- Dependência
+Landing Page de uma cafeteria ☕
 
-  - ReactJS
-  - TypeScript
+# Tecnologia
+
+- React JS
+- TypeScript
+
+# Começando
+- Dependência
   - react router dom
     - npm install react-router-dom
     - npm install localforage match-sorter sort-by
@@ -15,3 +20,7 @@
 
 - Rodar Api dos produtos da cafeteria
   - json-server --watch db.json
+
+
+
+
