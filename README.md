@@ -20,6 +20,9 @@ Landing Page de uma cafeteria ☕
 
 - Rodar Api dos produtos da cafeteria
   - json-server --watch db.json
+ 
+# Deploy
+  - https://coffee-gm.vercel.app
 
 
 
