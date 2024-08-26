@@ -21,9 +21,15 @@ Landing Page de uma cafeteria ☕
 - Rodar Api dos produtos da cafeteria
   - json-server --watch db.json
  
+# Características
+
+As principais características do site são:
+- Landing page informativa.
+- Redirecionamento ao topo da página.
+- Produtos exibidos dinamicamente de acordo com a Api de produtos da cafeteria.
+- Filtar produtos por categoria.
+- Card de lojas exibidos dinamicamente.
+- Resposivo.
+ 
 # Deploy
   - https://coffee-gm.vercel.app
-
-
-
-
