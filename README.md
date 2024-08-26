@@ -21,6 +21,16 @@ Landing Page de uma cafeteria ☕
 - Rodar Api dos produtos da cafeteria
   - json-server --watch db.json
  
+# Como usar
+
+- 1 - Ao acessar o projeto, essa é a tela inicial.
+
+-  2 - Tela de Menu, onde é exibido os produtos e seus valores.
+
+-  3 - Tela onde é exibido as cidades com lojas ativas.
+
+  - 3.1 - Onde aparece as lojas ativas de cada cidade.
+ 
 # Características
 
 As principais características do site são:
