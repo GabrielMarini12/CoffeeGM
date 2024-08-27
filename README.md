@@ -74,12 +74,12 @@ Landing Page de uma cafeteria ☕
 # Características
 
 As principais características do site são:
-- Landing page informativa.
+- Landing Page informativa.
 - Redirecionamento ao topo da página.
 - Produtos exibidos dinamicamente de acordo com a Api de produtos da cafeteria.
-- Filtar produtos por categoria.
+- Filtrar produtos por categoria.
 - Card de lojas exibidos dinamicamente.
-- Resposivo.
+- Responsivo.
  
 # Deploy
   - https://coffee-gm.vercel.app
