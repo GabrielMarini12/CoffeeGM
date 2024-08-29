@@ -1,4 +1,4 @@
-# GM Coffee Company 
+# GM Coffee Compan
 
 Landing Page de uma cafeteria ☕
 
