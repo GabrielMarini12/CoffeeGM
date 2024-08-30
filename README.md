@@ -53,7 +53,7 @@ Landing Page de uma cafeteria ☕
 
 ![image](https://github.com/user-attachments/assets/bd998336-d3f9-4222-9883-6638d85c7acb)
 
--  3 - Tela onde é exibido as cidades com lojas ativas.
+-  3 - Tela onde é exibido as cidades com as lojas ativas.
 
 ![image](https://github.com/user-attachments/assets/334d956b-e05c-4539-90d2-eb1892053268)
 
