@@ -8,7 +8,7 @@ Landing Page de uma cafeteria ☕
 - TypeScript
 
 # Começando
-- Dependência
+- Dependências
   - react router dom
     - npm install react-router-dom
     - npm install localforage match-sorter sort-by
